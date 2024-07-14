@@ -22,7 +22,6 @@ ui <- fluidPage(
   )
 )
 
-
 server <- function(input, output, session) {
   # Filter data and store as reactive value
   data <- reactive({
